@@ -1,4 +1,4 @@
-# Ecuadorian-Peruvian_War mini-mod/battle scenario
+# Ecuadorian-Peruvian War mini-mod/battle scenario
 ## User modification for Darkest Hour
 
 
