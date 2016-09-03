@@ -1,0 +1,303 @@
+###############################################
+# Ecuadorian-Peruvian War mod battle scenario #
+###############################################
+
+
+
+name       = "Ecuadorian–Peruvian War"
+panel      = "scenarios/data/scenario_1941.bmp"
+header =
+{ name       = "Ecuadorian–Peruvian War"
+  startdate  = { year = 1941 month = july day = 4 }
+
+	free = no
+	combat = yes	#this is a battlescenario
+	 selectable = { 
+	PRU ECU
+	 } 
+	PRU = { desc = "In 1941, the two countries went to war. As with all other such incidents, there are conflicting accounts to this day as to which side fired the first shot. Peru's version of events is that Ecuador had been making incursions into its territory since 1937 and occupied several border locations by 1940."
+		picture = "scenarios\data\00peru.bmp" 
+			}
+	ECU = { desc = "In 1941, the two countries went to war. As with all other such incidents, there are conflicting accounts to this day as to which side fired the first shot. Ecuador's version is that Peru took a series of incidents between border patrols as a pretext to invade Ecuador, with the intention of forcing it to sign a clear border agreement. They argue that the clear disparity of military presence in the region between the two countries supports this version."
+		#for later picture = "scenarios\data\example.bmp" 
+		bottom = yes
+			}
+}
+globaldata =
+{ startdate = { year = 1941 month = july day = 4 }
+  enddate = { year = 1942 month = january day = 30 }
+
+	allies = {
+	         id = { type = 15000 id = 1 }
+	         participant = { PRU }
+	         }
+    axis =   {
+	         id = { type = 15000 id = 2 }
+		 participant = { ECU }
+	         }
+	comintern = {
+	        id = { type = 15000 id = 3 }
+			participant = { }
+			}
+	########PE war ###########
+  war =
+  { id        = { type = 9430 id = 1 }
+    date      = { year = 1941 month = july day = 5 }
+    enddate   = { year = 1942 month = january day = 29 }
+    attackers =
+    { id          = { type = 9430 id = 2 }
+      participant = { PRU }
+    }
+    defenders =
+    { id          = { type = 9430 id = 3 }
+      participant = { ECU }
+    }
+  }
+
+	rules     = { diplomacy = no
+		production = no
+		technology = no
+	}
+}
+ 
+map = {
+  no = all
+ 
+  #Ecuador
+  yes = 551 # Puerto Baquerizo Moreno
+  yes = 3782 # Santo Domingo
+  yes = 3783 # Manta
+  yes = 814 # Guayaquil
+  yes = 815 # Quito
+  yes = 3781 #Cuenca
+  yes = 3784 # Loja
+  yes = 3787 # Puerto Francisco de Orellana
+  yes = 3786 # Tena
+  yes = 817 # Puyo
+  yes = 3785 # Macas
+  yes = 3822 # Pantoja
+  yes = 3823 # Arabella
+  yes = 1835 # Andoas
+
+  #Sea
+  yes = 4115
+  yes = 4114
+  yes = 4113
+  yes = 4112
+  yes = 1963
+  yes = 2553
+  yes = 1967
+
+  #Peru
+  yes = 3821 #Puerto Arturo
+  yes = 2930 # Pebas
+  yes = 3820 # Orán
+  yes = 818 #Iquitos
+  yes = 3824 # Borja
+  yes = 908 # Jaén
+  yes = 3825 # Piura
+  yes = 3827 # Caballocha
+  yes = 1988 # Requena
+  yes = 3826 # Lagunas
+  yes = 2497 # Tarapoto
+  yes = 3829 # Cajamarca
+  yes = 2049 # Chiclayo
+  yes = 816 # Trujillo
+  yes = 3833 # Masisea
+  yes = 821 # Pucallpa
+  yes = 3828 # Huanuco
+  yes = 3830 # Huaraz
+  yes = 3831 # Chimbote
+  yes = 3832 # Cerro de Pasco
+  yes = 830 # Lima
+  yes = 2928 # Ica
+  yes = 2997 # Huancayo
+  yes = 3834 # Quillabamba
+  yes = 3835 # Ayacucho
+  yes = 2003 # Pto. Maldonado
+  yes = 3837 # Nazca
+  yes = 3836 # Abancay
+  yes = 829 # Cuzco
+  yes = 831 # Arequipa
+  yes = 3838 # Mollendo
+  yes = 3840 # Juliaca
+  yes = 2929 # Puno
+  yes = 3839 # Tacna
+
+  #Colombia (added to avoid Air Unit crash):
+  yes = 3790
+  yes = 3788
+  yes = 3789
+  yes = 2738
+
+  #Bolivia (added to avoid Air Unit crash):
+  yes = 836
+  yes = 838
+  yes = 832 
+  yes = 828
+  yes = 827
+  yes = 2374 
+  yes = 2375
+  yes = 3841 
+  yes = 3842 
+  yes = 3843
+  yes = 3844
+  yes = 3845
+  yes = 3846
+  yes = 3847
+  yes = 3848
+  yes = 3849 
+  yes = 3850
+  yes = 3851
+  yes = 3852
+  yes = 3853 
+  yes = 3854
+  yes = 3855
+  yes = 3856 
+  yes = 3857 
+  yes = 3858
+  yes = 5452 
+  yes = 5453 
+  yes = 5454 
+  yes = 5455 
+
+  #Chile (added to avoid Air Unit crash):
+  yes = 2993
+  yes = 2994
+  yes = 2995
+  yes = 2054
+  yes = 1930
+  yes = 3876
+  yes = 3877
+  yes = 3878
+  yes = 3879
+  yes = 3880
+  yes = 3881
+  yes = 3882
+  yes = 3883
+  yes = 3884
+  yes = 3885
+  yes = 3886
+  yes = 4097
+  yes = 5446
+  yes = 864 
+  yes = 861 
+  yes = 860
+  yes = 856 
+  yes = 840 
+  yes = 839
+  yes = 842
+  yes = 865
+
+  #Brazil (added to avoid Air Unit crash):
+  yes = 835
+  yes = 834
+  yes = 825
+  yes = 823
+  yes = 822
+  yes = 820
+  yes = 872
+  yes = 824
+  yes = 877
+  yes = 2027
+  yes = 2737
+  yes = 2739
+  yes = 2992
+  yes = 2282
+  yes = 3950
+  yes = 3951
+  yes = 3952
+  yes = 3953
+  yes = 3954
+  yes = 3955
+  yes = 3956
+  yes = 3957
+  yes = 3958
+  yes = 3959
+  yes = 3960
+  yes = 3961
+  yes = 3962
+  yes = 3963
+  yes = 3964
+  yes = 3965
+  yes = 3966
+  yes = 3967
+  yes = 3968
+  yes = 3969
+  yes = 3970
+  yes = 3971
+  yes = 3972
+  yes = 3973
+  yes = 3974
+  yes = 3975
+  yes = 3976
+  yes = 3977
+  yes = 3978
+  yes = 3979
+  yes = 3980
+  yes = 3981
+  yes = 3982
+  yes = 3983
+  yes = 3984
+  yes = 3985
+  yes = 3986
+  yes = 3987
+  yes = 3988
+  yes = 3989
+  yes = 3990
+  yes = 3991
+  yes = 3992
+  yes = 3993
+  yes = 3994
+  yes = 3995
+  yes = 3996
+  yes = 3997
+  yes = 3998
+  yes = 5424
+  yes = 5425
+  yes = 5426
+  yes = 5427
+  yes = 5428
+  yes = 5429
+  yes = 5430
+  yes = 5431
+  yes = 5432
+  yes = 5433
+  yes = 5434
+  yes = 5435
+  yes = 5436
+  yes = 5437
+  yes = 5438
+  yes = 5439
+  yes = 5440
+  yes = 5441
+  yes = 5442
+ 
+	#future: add boundaries#
+	#top = {	x = 15556 y = 1712 }
+	#bottom = {	x = 17304 y = 2912 }
+	###
+
+	}
+
+
+
+# ###################
+# exclude these events:
+#ex. event = "db\events\secret_weapon_events.txt"
+
+# Includes for global data
+include = "db\events2.txt"
+
+# Victory points distribution
+include = "scenarios\PEwar\vp.inc"
+include = "scenarios\PEwar\installations.inc"
+
+# Include files for each country tag used in the scenario
+
+include = "scenarios\PEwar\Ecuador.inc"
+include = "scenarios\PEwar\Peru.inc"
+include = "scenarios\PEwar\Colombia.inc"
+include = "scenarios\PEwar\Bolivia.inc"
+include = "scenarios\PEwar\Chile.inc"
+include = "scenarios\PEwar\Brazil.inc"
