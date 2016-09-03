@@ -1,0 +1,37 @@
+From;To;Type;Through;Comment
+
+294;93;Sea;290;# Kobenhavn-Malmo
+294;293;Sea;290;# Kobenhavn-Odense
+120;293;Sea;290;# Arhus-Odense
+292;92;Sea;2474;# Fredrikshavn-Aalborg
+78;47;Sea;2472;# Groningen-Amsterdam
+409;439;Sea;397;# Istanbul-Izmit
+254;3445;Sea;2468;# Kerc-Krymskaja
+1353;1351;Sea;2146;# Singapura-Johor Bahru
+195;3286;Sea;2483;# Kuressaare-Haapsalu
+103;141;Sea;2491;# Maarianhamina-Turku
+97;3304;Sea;2479;# Kalmar-Borgholm
+3298;2276;Sea;2388;# Harstad-Narvik
+3054;5;Sea;2402;# Thurso-Kirkwall
+38;1720;Sea;2413;# Cherbourg-Saint Helier
+526;524;Sea;2441;# Messina-Reggio Calabria
+863;858;Sea;4108;# Ushuaia-Rio Gallegos
+842;865;Sea;4109;# Punta Arenas-Porvenir
+3350;293;Sea;2476;# Naestved-Odense
+3394;195;Sea;2483;# Kardla-Kuressaare
+3394;3286;Sea;2483;# Kardla-Haapsalu
+393;392;Sea;2448;# Kerkyra-Ioannina
+2625;2872;Sea;2448;# Argostoli-Agrinio
+400;403;Sea;2464;# Halkida-Lamia
+1190;3065;Sea;2193;# Fukuoka-shi-Yamaguchi-shi
+3064;1187;Sea;2193;# Takamatsu-shi-Osaka-shi
+2899;901;River;0;# Al-Qantara-Bur Sa'id
+2899;900;River;0;# Al-Qantara-as-Suways
+2657;810;River;0;# Tucupita-Maturin
+2657;3871;River;0;# Tucupita-San Felix
+888;4288;Sea;2575;# Ciudad de Panama-La Chorrera
+3878;3879;Sea;4110;# Castro-Osorno
+2476;2473;Canal;90;The Kiel Canal
+#4258;4236;Canal;3012;Nicaragua Canal
+
+-1;-1;;;

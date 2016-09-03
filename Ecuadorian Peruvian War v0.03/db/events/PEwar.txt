@@ -1,0 +1,583 @@
+#############################################
+#     Ecuadorian-Peruvian War Events        #
+#############################################
+#id = 2000000 - 2000100
+
+#fuel and supplies#
+
+event = {
+	id = 2000000
+	random = no
+	Country = PRU
+	persistent = yes
+	date = {day = 1 month = july year = 1941}
+	offset = 30
+	deathdate = {day = 1 month = january year = 1943}
+	trigger = {
+	 
+	}
+	name = "Fresh Supplies Arrive"
+	desc = "New supplies arrive. What a waste of tax payers money"
+	picture = "lend_lease"
+	
+	style = 1
+	action_a = {
+		name = "Right on time"
+		command = { type = supplies value = 1000}
+		command = { type = oilpool value = 200}
+		command = { type = dissent value = 1}
+		}
+}
+
+event = {
+	id = 2000001
+	random = no
+	Country = ECU
+	persistent = yes
+	date = {day = 1 month = july year = 1941}
+	offset = 30
+	deathdate = {day = 1 month = january year = 1943}
+	trigger = {
+	 
+	}
+	name = "Fresh Supplies Arrive"
+	desc = "New supplies arrive. What a waste of tax payers money"
+	picture = "lend_lease"
+	style = 1
+	action_a = {
+		name = "Right on time"
+		command = { type = supplies value = 1000}
+		command = { type = oilpool value = 100}
+		command = { type = dissent value = 1}
+		}
+}
+
+#Introduction Events#
+
+event = {
+	id = 2000002
+	random = no
+	Country = ECU
+	persistent = no
+	date = {hour = 0 day = 5 month = july year = 1941}
+	deathdate = {hour = 2 day = 5 month = july year = 1941}
+	trigger = {
+	  
+	}
+	name = "Hold the lines"
+	desc = "To achieve vitory we must hold the lines."
+	#picture = "lend_lease" #to be done
+	style = 1
+	action_a = {
+		name = "And so it begins!"
+		command = { type = supplies value = 1000}
+		command = { type = oilpool value = 200}
+		}
+}
+
+event = {
+	id = 2000003
+	random = no
+	Country = PRU
+	persistent = no
+	date = {hour = 2 day = 5 month = july year = 1941}
+	deathdate = {hour = 2 day = 5 month = july year = 1941}
+	trigger = {
+	 
+	}
+	name = "Reconquer our lands"
+	desc = "In order to succeed we must capture Andoas, Arabella and Pantoja within 2 months"
+	#picture = "lend_lease" #to be done
+	style = 1
+	action_a = {
+		name = "And so it begins!"
+		command = { type = supplies value = 1000}
+		command = { type = oilpool value = 200}
+		}
+}
+
+#Peruvian Air Force events#
+
+
+
+event = {
+	id = 2000006
+	random = no
+	Country = ECU
+	persistent = no
+	date = {day = 23 month = july year = 1941}
+	trigger = {
+	 
+	}
+	name = "Peruvian ace is shot down"
+	desc = "José Quiñones Gonzáles is shot down by Ecuadorian AA-guns"
+	picture = "00perplane"
+	style = 1
+	action_a = {
+		name = "Sweet revenge"
+		command = { type = dissent value = -2}
+		}
+}
+
+event = {
+	id = 2000007
+	random = no
+	Country = PRU
+	persistent = no
+	date = {day = 23 month = july year = 1941}
+	trigger = {
+	 
+	}
+	name = "Peruvian ace is shot down"
+	desc = "José Quiñones Gonzáles is shot down by Ecuadorian AA-guns"
+	picture = "00perplane"
+	style = 1
+	action_a = {
+		name = "May he rest in peace"
+		command = { type = dissent value = 2}
+		}
+}
+
+event = {
+	id = 2000008
+	random = no
+	Country = ECU
+	persistent = no
+	date = {day = 31 month = july year = 1941}
+	trigger = {
+	 
+	}
+	name = "Paratroopers!!"
+	desc = "For the first time in American history, paratroopers are used in battle. Peruvians use paratroopers to take over Puerto Bolivar"
+	picture = "00para"
+	style = 1
+	action_a = {
+		name = "That is playing dirty!"
+		command = { type = dissent value = 2}
+		}
+}
+
+event = {
+	id = 2000009
+	random = no
+	Country = PRU
+	persistent = no
+	date = {day = 31 month = july year = 1941}
+	trigger = {
+	 
+	}
+	name = "Paratroopers!!"
+	desc = "For the first time in American history, paratroopers are used in battle. Peruvians use paratroopers to take over Puerto Bolivar"
+	picture = "00para"
+	style = 1
+	action_a = {
+		name = "This one's for you José Quiñones Gonzáles"
+		command = { type = dissent value = -2}
+		}
+}
+
+#First Round of Defeat events#
+
+event = {
+	id = 2000010
+	random = no
+	Country = ECU
+	persistent = no
+	date = {day = 5 month = july year = 1941}
+	offset = 1
+	deathdate = {day = 5 month = september year = 1941}
+	trigger = {
+	NOT = {
+	 control = { province = 3822 data = ECU }
+	 control = { province = 3823 data = ECU }
+	 control = { province = 1835 data = ECU }
+	}
+	}
+	name = "Request Cease-fire"
+	desc = "Faced with a delicate political situation, Ecuadorian President Carlos Alberto Arroyo del Río to keep a sizable part of the Army in the capital, Quito. Ecuador promptly requested a cease-fire."
+	picture = "00ecuper"
+	style = 1
+	action_a = {
+		name = "Our men have fought bravely. We surrender. (HISTORICAL)"
+		ai_chance = 50
+		command = { type = dissent value = 5}
+		command = { type = peace which = PRU value = 0}
+		command = { type = secedeprovince which = PRU value = 1835}
+		command = { type = secedeprovince which = PRU value = 3823}
+		command = { type = secedeprovince which = PRU value = 3822}
+		command = { type = sleepevent which = 2000000}
+		command = { type = sleepevent which = 2000001}
+		command = { type = sleepevent which = 2000002}
+		command = { type = sleepevent which = 2000003}
+		command = { type = sleepevent which = 2000006}
+		command = { type = sleepevent which = 2000007}
+		command = { type = sleepevent which = 2000009}
+		command = { type = supplies value = 5000}
+		command = { type = oilpool value = 1000}
+		command = { type = sleepevent which = 2000012}
+		}
+	action_b = {
+		name = "Full scale war is the only way"
+		ai_chance = 50
+		command = { type = dissent value = 10} 
+		command = { type = unlock_division which = 29000 value = 5000}
+		command = { type = unlock_division which = 29000 value = 5005}
+		command = { type = unlock_division which = 29000 value = 5006}
+		command = { type = unlock_division which = 29000 value = 5007}
+		command = { type = unlock_division which = 29000 value = 5008}
+		command = { type = unlock_division which = 29000 value = 5009}
+		command = { type = unlock_division which = 29000 value = 5010}
+		command = { type = unlock_division which = 29000 value = 5011}
+		command = { type = unlock_division which = 29000 value = 5012}
+		command = { type = unlock_division which = 29000 value = 5013}
+		command = { type = unlock_division which = 29000 value = 5014}
+		command = { type = unlock_division which = 29000 value = 5015}
+		command = { type = unlock_division which = 29000 value = 5016}
+		command = { type = sleepevent which = 2000011}
+		command = { type = supplies value = 1000}
+		command = { type = oilpool value = 100}
+		}
+}
+
+event = {
+	id = 2000011
+	random = no
+	Country = PRU
+	persistent = no
+	date = {day = 8 month = july year = 1941}
+	offset = 1
+	deathdate = {day = 1 month = january year = 1942}
+	trigger = {
+		event = 2000010
+	}
+	name = "Peruvian Victory"
+	desc = "After a short campaign the peruvian Army humiliated the Ecuadorians" 
+	picture = "00pervic"
+	style = 1
+	action_a = {
+		name = "Por la Patria"
+		command = { type = dissent value = -10} 
+		command = { type = supplies value = 5000}
+		command = { type = oilpool value = 1000}
+		command = { type = endgame value = 5 }
+		}
+}
+
+event = {
+	id = 2000012
+	random = no
+	Country = PRU
+	persistent = no
+	date = {day = 8 month = july year = 1941}
+	offset = 1
+	deathdate = {day = 1 month = january year = 1942}
+	trigger = {
+		event = 2000010
+	}
+	name = "War becomes full scale"
+	desc = "The Ecuadorians have mobilized" 
+	picture = "00peruesc"
+	style = 1
+	action_a = {
+		name = "Mobilize"
+		command = { type = dissent value = 5} 
+		command = { type = unlock_division which = 17600 value = 22}	
+		command = { type = unlock_division which = 17600 value = 24}
+		command = { type = unlock_division which = 17600 value = 25}	
+		command = { type = unlock_division which = 17600 value = 26}	
+		command = { type = unlock_division which = 17600 value = 27}	
+		command = { type = unlock_division which = 17600 value = 28}	
+		command = { type = unlock_division which = 17600 value = 29}
+		command = { type = supplies value = 1000}
+		command = { type = oilpool value = 100}			
+		}
+}
+
+event = {
+	id = 2000013
+	random = no
+	Country = PRU
+	persistent = no
+	date = {day = 5 month = september year = 1941}
+	offset = 1
+	deathdate = {day = 6 month = september year = 1941}
+	trigger = {
+	NOT = {
+	 event = 2000010
+	}
+	}
+	name = "The Harsh Truth"
+	desc = "We have failed to achieve our goal"
+	picture = "00ecuper"
+	style = 1
+	action_a = {
+		name = "Our men have fought bravely. Lets sign a peace deal"
+		ai_chance = 50
+		command = { type = dissent value = 5}
+		command = { type = peace which = ECU value = 0}
+		command = { type = sleepevent which = 2000000}
+		command = { type = sleepevent which = 2000001}
+		command = { type = sleepevent which = 2000002}
+		command = { type = sleepevent which = 2000003}
+		command = { type = sleepevent which = 2000006}
+		command = { type = sleepevent which = 2000007}
+		command = { type = sleepevent which = 2000009}
+		command = { type = supplies value = 5000}
+		command = { type = oilpool value = 1000}
+		command = { type = sleepevent which = 2000015}
+		}
+	action_b = {
+		name = "Full scale war is the only way"
+		ai_chance = 50
+		command = { type = dissent value = 10} 
+		command = { type = unlock_division which = 17600 value = 22}	
+		command = { type = unlock_division which = 17600 value = 24}
+		command = { type = unlock_division which = 17600 value = 25}	
+		command = { type = unlock_division which = 17600 value = 26}	
+		command = { type = unlock_division which = 17600 value = 27}	
+		command = { type = unlock_division which = 17600 value = 28}	
+		command = { type = unlock_division which = 17600 value = 29}
+		command = { type = sleepevent which = 2000014}
+		command = { type = supplies value = 1000}
+		command = { type = oilpool value = 100}
+		}
+}
+
+event = {
+	id = 2000014
+	random = no
+	Country = ECU
+	persistent = no
+	date = {day = 8 month = july year = 1941}
+	offset = 1
+	deathdate = {day = 1 month = january year = 1942}
+	trigger = {
+		event = 2000013
+	}
+	name = "Ecuadorian Victory"
+	desc = "After a short campaign the Ecuadorian Army humiliated the Peruvians" 
+	picture = "00pervic"
+	style = 1
+	action_a = {
+		name = "Por la Patria"
+		command = { type = dissent value = -10} 
+		command = { type = supplies value = 5000}
+		command = { type = oilpool value = 1000}
+		command = { type = endgame value = 3 }
+		}
+}
+
+event = {
+	id = 2000015
+	random = no
+	Country = ECU
+	persistent = no
+	date = {day = 8 month = july year = 1941}
+	offset = 1
+	deathdate = {day = 1 month = january year = 1942}
+	trigger = {
+		event = 2000013
+	}
+	name = "War becomes full scale"
+	desc = "The Peruvians have mobilized" 
+	picture = "00peruesc"
+	style = 1
+	action_a = {
+		name = "Mobilize"
+		command = { type = dissent value = 5} 
+		command = { type = unlock_division which = 29000 value = 5000}
+		command = { type = unlock_division which = 29000 value = 5005}
+		command = { type = unlock_division which = 29000 value = 5006}
+		command = { type = unlock_division which = 29000 value = 5007}
+		command = { type = unlock_division which = 29000 value = 5008}
+		command = { type = unlock_division which = 29000 value = 5009}
+		command = { type = unlock_division which = 29000 value = 5010}
+		command = { type = unlock_division which = 29000 value = 5011}
+		command = { type = unlock_division which = 29000 value = 5012}
+		command = { type = unlock_division which = 29000 value = 5013}
+		command = { type = unlock_division which = 29000 value = 5014}
+		command = { type = unlock_division which = 29000 value = 5015}
+		command = { type = unlock_division which = 29000 value = 5016}
+		command = { type = supplies value = 1000}
+		command = { type = oilpool value = 100}			
+		}
+}
+
+#Second defeat#
+
+event = {
+	id = 2000016
+	random = no
+	Country = ECU
+	persistent = no
+	date = {day = 6 month = september year = 1941}
+	offset = 1
+	deathdate = {day = 6 month = november year = 1941}
+	trigger = {
+		vp = 22	 	
+	}
+	name = "The peruvians are defeated"
+	desc = "Glorius Day!" 
+	picture = "news_paper"
+	style = 1
+	action_a = {
+		name = "Victory!"
+		command = { type = dissent value = -10}
+		command = { type = peace which = PRU value = 0}
+		command = { type = sleepevent which = 2000000}
+		command = { type = sleepevent which = 2000001}
+		command = { type = sleepevent which = 2000002}
+		command = { type = sleepevent which = 2000003}
+		command = { type = sleepevent which = 2000004}
+		command = { type = sleepevent which = 2000005}
+		command = { type = sleepevent which = 2000006}
+		command = { type = sleepevent which = 2000007}
+		command = { type = sleepevent which = 2000009}
+		command = { type = secedeprovince which = ECU value = 3821}
+		command = { type = secedeprovince which = ECU value = 3820}
+		command = { type = secedeprovince which = ECU value = 2930}
+		command = { type = secedeprovince which = ECU value = 818}
+		command = { type = secedeprovince which = ECU value = 3824}
+		command = { type = secedeprovince which = ECU value = 908}
+		command = { type = secedeprovince which = ECU value = 3825}
+		
+		}
+}
+
+event = {
+	id = 2000017
+	random = no
+	Country = PRU
+	persistent = no
+	date = {day = 8 month = july year = 1941}
+	offset = 1
+	deathdate = {day = 1 month = january year = 1942}
+	trigger = {
+		event = 2000016
+	}
+	name = "Big Ecuadorian Victory"
+	desc = "After a long war, Perú has no choice but surrender." 
+	picture = "00pervic"
+	style = 1
+	action_a = {
+		name = "We failed our Country"
+		command = { type = dissent value = -5} 
+		command = { type = supplies value = 5000}
+		command = { type = oilpool value = 1000}
+		command = { type = endgame value = 4 }
+		}
+}
+
+event = {
+	id = 2000018
+	random = no
+	Country = PRU
+	persistent = no
+	date = {day = 6 month = september year = 1941}
+	offset = 1
+	deathdate = {day = 6 month = november year = 1941}
+	trigger = {
+		vp = 22	 	
+	}
+	name = "The ecuadorians are defeated"
+	desc = "Glorius Day!" 
+	picture = "news_paper"
+	style = 1
+	action_a = {
+		name = "Victory!"
+		command = { type = dissent value = -10}
+		command = { type = peace which = ECU value = 0}
+		command = { type = sleepevent which = 2000000}
+		command = { type = sleepevent which = 2000001}
+		command = { type = sleepevent which = 2000002}
+		command = { type = sleepevent which = 2000003}
+		command = { type = sleepevent which = 2000004}
+		command = { type = sleepevent which = 2000005}
+		command = { type = sleepevent which = 2000006}
+		command = { type = sleepevent which = 2000007}
+		command = { type = sleepevent which = 2000009}
+		command = { type = secedeprovince which = PRU value = 3784} #Loja
+		command = { type = secedeprovince which = PRU value = 1835}
+		command = { type = secedeprovince which = PRU value = 3823}
+		command = { type = secedeprovince which = PRU value = 3822}
+		
+		}
+}
+
+event = {
+	id = 2000020
+	random = no
+	Country = ECU
+	persistent = no
+	date = {day = 8 month = july year = 1941}
+	offset = 1
+	deathdate = {day = 1 month = january year = 1942}
+	trigger = {
+		event = 2000018
+	}
+	name = "Big Peruvian Victory"
+	desc = "After a long war, Ecuador has no choice but surrender." 
+	picture = "00pervic"
+	style = 1
+	action_a = {
+		name = "We failed our Country"
+		command = { type = dissent value = -5} 
+		command = { type = supplies value = 5000}
+		command = { type = oilpool value = 1000}
+		command = { type = endgame value = 6 }
+		}
+}
+
+event = {
+
+	id = 2000021
+	random = no
+	Country = PRU
+	persistent = no
+	date = {day = 28 month = january year = 1942}
+	offset = 1
+	deathdate = {day = 29 month = january year = 1942}
+	trigger = {
+		NOT = {
+		event = 2000020
+		event = 2000017
+		AI = YES
+		}
+	}
+	name = "Rio Protocol - Tie"
+	desc = "Negociations start" 
+	picture = "news_paper"
+	style = 1
+	action_a = {
+		name = "Finally"
+		command = { type = dissent value = -5} 
+		command = { type = endgame value = 2 }
+		}
+}
+
+event = {
+
+	id = 2000019
+	random = no
+	Country = ECU
+	persistent = no
+	date = {day = 28 month = january year = 1942}
+	offset = 1
+	deathdate = {day = 29 month = january year = 1942}
+	trigger = {
+		NOT = {
+		event = 2000020
+		event = 2000017
+		AI = YES
+		}
+	}
+	name = "Rio Protocol - Tie"
+	desc = "Negociations Start" 
+	picture = "news_paper"
+	style = 1
+	action_a = {
+		name = "Finally"
+		command = { type = dissent value = -5}
+		command = { type = endgame value = 2 }		
+		}
+}

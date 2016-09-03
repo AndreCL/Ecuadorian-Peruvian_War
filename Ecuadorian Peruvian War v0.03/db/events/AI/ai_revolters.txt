@@ -1,0 +1,2641 @@
+##########################
+### REVOLTERS SET FREE ###
+###     AI EVENTS      ###
+##########################
+
+event = {
+	id = 3300000
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+	
+	country = ALG
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 7 } #  independence in 1962
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300001
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = ANG
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1975
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+#event = {
+#	id = 3300002
+#	trigger = { NOT = { local_flag = revolter_set } }
+#	random = no
+#	persistent = yes
+#
+#	country = ARA
+#
+#	name = "AI_indep_name"
+#	desc = "AI_indep_desc"
+#	style = 2
+#
+#	date = { day = 0 month = january year = 1936 }
+#	offset = 15
+#	deathdate = { day = 29 month = december year = 1963 }
+#
+#	action_a = {
+#		name = "ACTIONNAME1000A"
+#		command = { type = dissent value = 10 } #  "Hypothetical" nation
+#		command = { type = local_setflag which = revolter_set }
+#		}
+#	}
+
+event = {
+	id = 3300003
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = ARM
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1991
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300004
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = AZB
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1991
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300005
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = BEN
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 4 }
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300006
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = BUR
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 4 } #  independence in 1948
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300007
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = BLR
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1990
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300008
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = BOS
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1991 & Civil War
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+
+event = {
+	id = 3300011
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = CAM
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #  independence in 1960
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300012
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = CMB
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 } #  independence in 1953
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300013
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = CON
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #  independence in 1960
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+
+event = {
+	id = 3300015
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = CYP
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #  independence in 1960
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300016
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = EAF
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #  Kenya independence in 1963
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300017
+	trigger = { NOT = { local_flag = revolter_set } 	
+		NOT = { puppet = { country = EGY country = ENG } }
+		NOT = { alliance = { country = EGY country = ENG } }
+ 	}
+	random = no
+	persistent = yes
+
+	country = EGY
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 2 } #  Egypt was actually a puppet of the UK in the HOI2 era
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300018
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = EQA
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  The federation ended in 1959 after the territories had chosen — in 1958 — to become self-governing republics of the French Community.
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300019
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = EUS
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  Not independent as of 2005
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300020
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = GAB
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #  independence in 1960
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300021
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = GEO
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1991
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300022
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = GLD
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 } #  independence in 1956
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300023
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = GUI
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 7 } #  independence in 1968
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300024
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = GUY
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 7 } #  independence in 1966
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300025
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = ICL
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 4 } #  independence in 1944
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300026
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = IDC
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  "Hypothetical" nation
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+
+event = {
+	id = 3300028
+	trigger = { local_flag = revolter_set }
+	random = no
+	persistent = yes
+
+	country = INO
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #  independence in 1949 following 5 years of war
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300029
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = ISR
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 4 } #  State of Israel was declared in 1948
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300030
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = JOR
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 4 } #  Independence 1946 (from League of Nations mandate)
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300031
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = KAZ
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1991
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300032
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = KOR
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 4 } #  independence in 1948
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300033
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = KUR
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  Not independent as of 2005
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300034
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = KYG
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1991
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300035
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = LAO
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 }  # On July 19, 1949, France formally grants Laos independence. Three factions struggle for power
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300036
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = LBY
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 }  # Independence 1951 (from Italy)  
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300037
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = LEB
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 }  # Independence 1943 (from League of Nations mandate )  
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300038
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = MAD
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 }  # Independence 1960 
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300039
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = MAL
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 }  # Independence 1960 
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300040
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = MLY
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 }  # Independence 1956
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300041
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = MOR
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 }  # Independence 1956
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300042
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = MOZ
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1975
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300043
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = MTN
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  Not independent as of 2005
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300044
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = NAM
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } # Independence 1990 (from South African mandate) 
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300045
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = NIG
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #  Independence 1960
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+
+event = {
+	id = 3300047
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = PAK
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 4 } #  Independence 1947
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300048
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = PAL
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 4 } #  Hypothetical alternative to Israel 
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300049
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = PRI
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  Hypothetical
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300050
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = PRK
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  Founding of the Democratic People's Republic of Korea 1948 
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300051
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = QUE
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 } #  "Hypothetical" nation
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300052
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = RHO
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #  independence in 1965
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+
+event = {
+	id = 3300054
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = SAR
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #  independence in 1965 later joined Malaysia
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+
+event = {
+	id = 3300056
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = SER
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 2 }
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300057
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = SIB
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  "Hypothetical" nation
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300058
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = SIE
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 2 }
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300059
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = SLV
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 2 }
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300060
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = SOM
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 } #  independence in 1960
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300061
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = SUD
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 4 } #  independence in 1956
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300062
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = SYR
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 3 } #  independence in 1946
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300063
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = TAJ
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1991
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+
+event = {
+	id = 3300065
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = TRA
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  "Hypothetical" nation
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300066
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = TRK
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1991
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300067
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = TUN
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 } #  independence in 1956
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300068
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = UKR
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1991
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300069
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = UZB
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #  independence in 1991
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300070
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = VIE
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 } #  Independence was declared after World War II, but the French continued to rule until 1954
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300071
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = BRU
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 2 }
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+
+event = {
+	id = 3300072
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = CRO
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 }
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300073
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = CSA
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  "Hypothetical" nation
+		command = { type = sleepteam which = 240013 } # USA's Norfolk Naval Yard
+		command = { type = sleepteam which = 240010 } # USA's Newport News Shipbuilding
+		command = { type = waketeam which = 240030 }  # USA's Philadelphia Naval Shipyard
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300074
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = CAL
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  "Hypothetical" nation
+		command = { type = sleepteam which = 240004 } # USA's Douglas Aircraft Company
+		command = { type = sleepteam which = 240018 } # USA's Standard Oil of California
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300075
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = TEX
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  "Hypothetical" nation
+		command = { type = sleepteam which = 240019 } # USA's Texas Oil Company
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300076
+	trigger = {  
+		NOT = { local_flag = revolter_set }	
+		ispuppet = USA 
+		}
+
+	random = no
+	persistent = yes
+
+	country = USA
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  The resistance & 'The Right to Bear Arms'
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300077
+	trigger = {  
+		NOT = { local_flag = revolter_set }		
+		ispuppet = CAN 
+		}
+
+	random = no
+	persistent = yes
+
+	country = CAN
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 4 } #  The resistance
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300078
+	trigger = {  
+		NOT = { local_flag = revolter_set }		
+		puppet = { country = PHI country = JAP }
+		}
+
+	random = no
+	persistent = yes
+
+	country = PHI
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 } #  The resistance
+		command = { type = sleepteam which = 325005 } #Douglas MacArthur
+		command = { type = sleepleader which = 325044 } # MacArthur
+		command = { type = sleepleader which = 325045 } # Wainwright
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300079
+	trigger = { 
+		NOT = { local_flag = revolter_set }		
+		puppet = { country = POL country = GER }
+		}
+
+	random = no
+	persistent = yes
+
+	country = POL
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 20 } #  The resistance
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300080
+	trigger = { NOT = { local_flag = revolter_set }	}
+
+	random = no
+	persistent = yes
+
+	country = FLA
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  The resistance
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300081
+	trigger = { NOT = { local_flag = revolter_set }	}
+
+	random = no
+	persistent = yes
+
+	country = WLL
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  The resistance
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300082
+	trigger = { NOT = { local_flag = revolter_set }	}
+	random = no
+	persistent = yes
+
+	country = SCA
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #  "Hypothetical" nation
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300083
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = MEN
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 5 } #  The resistance
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300084
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U70
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300085
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U71
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 8 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300086
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U72
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300087
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U73
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 15 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300088
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U74
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = free_rare_materials value = 3 }
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300089
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U75
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300090
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U76
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300091
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U77
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 15 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300092
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U78
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 15 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300093
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U79
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300094
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U80
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300095
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U81
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300096
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U82
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300097
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U83
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300098
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U84
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300099
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U85
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300014
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U86
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300027
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U87
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 }
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300046
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U88
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300053
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U89
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300055
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U90
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300064
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U91
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300100
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U92
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300101
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U93
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300102
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U94
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300103
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U95
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300104
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U96
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300105
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U97
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300106
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U98
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300107
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U99
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 6 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300108
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U66 # Pindus
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+event = {
+	id = 3300109
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U05 # Ostland
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 10 } #
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300110
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U23 # Saarprotektorat 
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 25 } # Occupied country
+		command = { type = removecore which = 127 }	
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+
+event = {
+	id = 3300111
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U24 ### western occupied germany exists
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 25 } # Occupied country
+		command = { type = removecore which = 131 }
+		command = { type = removecore which = 147 }
+		command = { type = removecore which = 141 }
+		command = { type = removecore which = 137 }
+		command = { type = removecore which = 174 }
+		command = { type = removecore which = 143 }
+		command = { type = removecore which = 176 }
+		command = { type = removecore which = 146 }
+		command = { type = removecore which = 148 }
+		command = { type = removecore which = 154 }
+		command = { type = removecore which = 151 }
+		command = { type = removecore which = 152 }
+		command = { type = removecore which = 177 }
+		command = { type = removecore which = 138 }
+		command = { type = removecore which = 134 }
+		command = { type = removecore which = 132 }
+		command = { type = removecore which = 175 }
+		command = { type = removecore which = 179 }
+		command = { type = removecore which = 178 }
+		command = { type = removecore which = 142 }
+		command = { type = removecore which = 145 }
+		command = { type = removecore which = 127 }
+		command = { type = removecore which = 126 }
+		command = { type = removecore which = 149 }
+		command = { type = removecore which = 180 }
+		command = { type = removecore which = 144 }
+		command = { type = removecore which = 129 }
+		command = { type = removecore which = 136 }
+		command = { type = removecore which = 130 }
+		command = { type = removecore which = 128 }
+		command = { type = removecore which = 139 }
+		command = { type = removecore which = 135 }
+		command = { type = removecore which = 33000 }
+		command = { type = removecore which = 140 }
+		command = { type = removecore which = 133 }		
+		command = { type = local_setflag which = revolter_set }
+		}
+	}
+	
+event = {
+	id = 3300112
+	trigger = { NOT = { local_flag = revolter_set } }
+	random = no
+	persistent = yes
+
+	country = U25 ### eastern occupied germany exists
+
+	name = "AI_indep_name"
+	desc = "AI_indep_desc"
+	style = 2
+
+	date = { day = 0 month = january year = 1936 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action_a = {
+		name = "ACTIONNAME1000A"
+		command = { type = dissent value = 25 } # Occupied country
+		command = { type = removecore which = 163 }
+		command = { type = removecore which = 169 }
+		command = { type = removecore which = 157 }
+		command = { type = removecore which = 171 }
+		command = { type = removecore which = 162 }
+		command = { type = removecore which = 153 }
+		command = { type = removecore which = 156 }
+		command = { type = removecore which = 170 }
+		command = { type = removecore which = 172 }
+		command = { type = removecore which = 173 }
+		command = { type = removecore which = 160 }		
+		command = { type = local_setflag which = revolter_set }
+		}
+	}

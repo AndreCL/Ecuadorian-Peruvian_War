@@ -1,0 +1,27 @@
+##########Milicja
+
+ event = { id = 9999901
+     random = no
+     persistent = yes
+     tag = { U59 } 
+     style = 2
+     picture = "news_paper"
+     trigger = { not = { local_flag = reichkomarmy } }
+     name = "Militia divisions arrives!"
+     desc = "It's doc Gerbil's world... It's doc Gerbil's world!"
+     date = { day = 1 month = january year = 1910 }
+     offset = 20
+     deathdate = { day = 30 month = december year = 1963 }
+     action = {
+         name = "Who can guess the reference?" #And what do you use for a nation's capital, -1 or -3? Also, should create '39 inf, gar, with latest POL
+                 command = { type = supplies value = 100 }
+         command = { type = local_setflag which = reichkomarmy }
+         #Guangdong
+         command = { trigger = { country = U59 } type = add_corps which = "1. Guangdong Army" value = land where = -1 } 
+         command = { trigger = { country = U59 } type = add_division which = "1. Infantry Division" value = infantry when = 10 where = police }
+         command = { trigger = { country = U59 } type = add_corps which = "2. Guangdong Army" value = land where = -1 } 
+         command = { trigger = { country = U59 } type = add_division which = "1. Militia Division" value = militia when = 5 where = police }
+         command = { trigger = { country = U59 } type = add_division which = "2. Militia Division" value = militia when = 5 where = police }
+         command = { trigger = { country = U59 } type = add_division which = "3. Militia Division" value = militia when = 5 where = police }
+     }
+ }
